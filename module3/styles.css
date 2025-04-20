@@ -1,0 +1,32 @@
+.header-example{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+.color-example{
+    color: aquamarine;
+    background-color:#f0c5fc;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.list-example{
+    list-style-type: square;
+    color: pink;
+}
+
+.text-example{
+    font-family: monospace;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.div-example{
+    background-color: chocolate;
+    border-style: solid;
+    border-color: salmon;
+    border-width: 5px;
+}
