@@ -1,0 +1,23 @@
+body{
+    min-height: 100svh;
+    background-color: darkolivegreen;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    border-style: solid;
+    border-color: darkorange;
+    border-width: 2px;
+    text-align: center;
+}
+
+p{
+    background-color: darkgoldenrod;
+    padding: 5px;
+}
