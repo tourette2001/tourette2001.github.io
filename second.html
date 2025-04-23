@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>module 2</title>
+    <title>tourette2001 website</title>
 </head>
 <body>
     <header>
-        <a href="index.html">takaisin etusivulle</a>
-        <h1>tervetuloa toiselle sivulle</h1>
+        <h1>kuvat</h1>
     </header>
-    <main>
-    <img src="images/image1.png" alt="piirros">
+    <main class="second-main">
+    <nav>
+        <a href="index.html">etusivu</a>
+        <a href="second.html">kuvat</a>
+    </nav>
+    <section class="second-content">
+        <img src="images/image1.png" alt="piirros" alt="pakastin-täynnä-pizzaa">
 
-    <figure>
-        <img src="images/image2.png" alt="pakastin-täynnä-pizzaa">
-        <figcaption>inferno pakastimessa</figcaption>
-    </figure>
-
-    <label for="jännitysmittari">jännitysmittari</label>
-    <progress id="jännitysmittari" max="100" value="70"></progress>
+        <figure>
+            <img src="images/image2.png" alt="pakastin-täynnä-pizzaa">
+            <figcaption>inferno pakastimessa</figcaption>
+        </figure>
+    </section>
     </main>
+    
+    <div class="second-meter">
+        <label for="jännitysmittari">jännitysmittari:</label>
+        <progress id="jännitysmittari" max="100" value="70"></progress>
+    </div>
 
     <footer id="footer">
         <p>&copy; 2025 tourette2001</p>
