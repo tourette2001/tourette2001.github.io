@@ -1,23 +1,107 @@
 body{
+    display: flex;
+    flex-direction: column;
     min-height: 100svh;
-    background-color: darkolivegreen;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #97b8ab;
 }
 
-main{
+/* HEADER OSIO */
+
+h1{
+    border-color: darkorange;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    background-color: #91a5b0;
+}
+
+/* NAV OSIO */
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e37e20;
+    border-radius: 30px;
+    height: 200px;
+    margin: 50px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e37e20;
+    color: black;
+    border-color: black;
+    padding: 10px 100px;
+    font-size: large;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+/* INDEX OSIO */
+
+.index-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin: 50px 0px;
+}
+
+.index-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #b091af;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px;
+    font-size: 20px;
 }
 
-h1{
-    border-style: solid;
-    border-color: darkorange;
-    border-width: 2px;
-    text-align: center;
+/* SECOND OSIO */
+
+.second-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    margin: 50px 0px;
 }
 
-p{
-    background-color: darkgoldenrod;
-    padding: 5px;
+.second-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.second-meter{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+img{
+    width: 600px;
+}
+
+/* THIRD OSIO */
+
+
+/* FOOTER OSIO */
+
+footer{
+    font-size: large;
+    display: flex;
+    justify-content: end;
 }
