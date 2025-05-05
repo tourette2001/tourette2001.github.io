@@ -30,7 +30,7 @@ nav{
     margin: 50px;
 }
 
-a{
+nav a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +41,10 @@ a{
     font-size: large;
     border-style: solid;
     border-radius: 30px;
+}
+
+a:hover{
+    background-color: red;
 }
 
 /* INDEX OSIO */
@@ -97,6 +101,39 @@ img{
 
 /* THIRD OSIO */
 
+.third-content{
+    background-color: #b091af;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.third-mini-nav{
+    float: left;
+    background-color: #b091af;
+}
+
+h2{
+    text-align: center;
+}
+
+.third-mini-nav a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5efd93;
+    color: black;
+    border-color: black;
+    padding: 10px 100px;
+    margin: 20px 0px;
+    font-size: large;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.purkkaratkaisu{
+    display: flex;
+}
 
 /* FOOTER OSIO */
 
