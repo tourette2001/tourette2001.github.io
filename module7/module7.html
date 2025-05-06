@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>funventures</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 { 
+    background-color: #97b8ab;
+    color: #ffffff;
+    border-bottom: 5px solid;
+}
+
+.bg-2 { 
+    background-color: #e37e20;
+    color: #ffffff;
+    border-bottom: 5px solid;
+}
+
+.bg-3 { 
+    background-color: #b091af;
+    color: #ffffff;
+    border-bottom: 5px solid;
+}
+
+.bg-4 { 
+    background-color: #91a5b0;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.navbar-nav  li a:hover {
+    color: red !important;
+}
+
+.col-sm-4 img{
+    height: 500px;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">koti</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#section1">kuka</a></li>
+            <li><a href="#section2">etsi</a></li>
+            <li><a href="#section3">kuvia</a></li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+<!-- First Container -->
+<div id="section1" class="container-fluid bg-1 text-center">
+    <h3 class="margin">kuka olen?</h3>
+    <img src="module7pp.JPG" class="img-responsive img-circle margin" 
+    style="display:inline" alt="Image" width="350" height="350">
+    <h3>olen tourette2001 ja tervetuloa minun matkablogiin</h3>
+</div>
+
+<!-- Second Container -->
+<div id="section2" class="container-fluid bg-2 text-center">
+    <h3 class="margin">budjetti 0€ mieli korkealla 100%</h3>
+    <p>tutki matkojani</p>
+    <a href="tutki" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> etsi
+    </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div id="section3" class="container-fluid bg-3 text-center">    
+    <h3 class="margin">mistä minut löytää?</h3><br>
+    <div class="row">
+    <div class="col-sm-4">
+        <p>oli ihan hiton tylsää. makasin tos joku 40min. @sallatunturi</p>
+        <img src="module71.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+        <p>angkor wat @kambodža, siem reap</p>
+        <img src="module72.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+        <p>hetki ennen helikopterikuljetusta @etelä-libanon</p>
+        <img src="module73.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+<p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
