@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>GALLERY</title>
+</head>
+<body>
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.jpg" alt="Image logo">
+        </a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+</div>
+
+    <div class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="partners.html">PARTNERS</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="gallery.html" class="active">GALLERY</a>
+    </div>
+</div>
+
+<!-- GALLERY -->
+<main>
+<div class="image-grid">
+    <img src="images/kuva (13).jpg" alt="BMC TRACK">
+    <img src="images/kuva (17).jpg" alt="BMC TRACK">
+    <img src="images/kuva (14).jpg" alt="BMC TRACK">
+    <img src="images/kuva (16).jpg" alt="BMC TRACK">
+    <img src="images/kuva (34).jpg" alt="MARIO KART CRITERIUM RACE 2020">
+    <img src="images/kuva (33).jpg" alt="MARIO KART CRITERIUM RACE 2020">
+    <img src="images/kuva (31).jpg" alt="MARIO KART CRITERIUM RACE 2020">
+    <img src="images/kuva (1).jpg" alt="MARIO KART CRITERIUM RACE 2020">
+    <img src="images/kuva (4).jpg" alt="UNDER THE BRIDGE">
+    <img src="images/kuva (3).jpg" alt="BMC TRACK">
+    <img src="images/kuva (5).jpg" alt="UNDER THE BRIDGE">
+    <img src="images/kuva (9).jpg" alt="AARON'S MACH 5">
+</div>
+</main>
+
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="partners.html">PARTNERS</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="gallery.html">GALLERY</a>
+    </div>
+
+    <p>&copy; 2025 NIGHTRIDE. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
