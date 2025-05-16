@@ -324,6 +324,7 @@ footer{
 
 .image-grid img {
     width: 95%;
+    max-height: 390px;
     height: auto;
     border-radius: 8px;
     cursor: pointer;
